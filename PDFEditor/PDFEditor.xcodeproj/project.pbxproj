@@ -15,7 +15,6 @@
 		EDD033F523168284007BAB75 /* PDFEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD033F223168284007BAB75 /* PDFEditView.swift */; };
 		EDD033F623168284007BAB75 /* DrawConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD033F323168284007BAB75 /* DrawConfigurationView.swift */; };
 		EDD033F723168284007BAB75 /* InstrumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD033F423168284007BAB75 /* InstrumentsView.swift */; };
-		EDD033F923169480007BAB75 /* 241_introducing_pdfkit_on_ios.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EDD033F823169480007BAB75 /* 241_introducing_pdfkit_on_ios.pdf */; };
 		EDD033FB2316A940007BAB75 /* PDFView+DisableSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD033FA2316A940007BAB75 /* PDFView+DisableSelection.swift */; };
 		EDD033FD2316A9F9007BAB75 /* DrawingGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD033FC2316A9F9007BAB75 /* DrawingGestureRecognizer.swift */; };
 		EDD034032316B08D007BAB75 /* PDFAnnotation+RemovePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD034022316B08D007BAB75 /* PDFAnnotation+RemovePath.swift */; };
@@ -34,7 +33,6 @@
 		EDD033F223168284007BAB75 /* PDFEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditView.swift; sourceTree = "<group>"; };
 		EDD033F323168284007BAB75 /* DrawConfigurationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawConfigurationView.swift; sourceTree = "<group>"; };
 		EDD033F423168284007BAB75 /* InstrumentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentsView.swift; sourceTree = "<group>"; };
-		EDD033F823169480007BAB75 /* 241_introducing_pdfkit_on_ios.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 241_introducing_pdfkit_on_ios.pdf; sourceTree = "<group>"; };
 		EDD033FA2316A940007BAB75 /* PDFView+DisableSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFView+DisableSelection.swift"; sourceTree = "<group>"; };
 		EDD033FC2316A9F9007BAB75 /* DrawingGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingGestureRecognizer.swift; sourceTree = "<group>"; };
 		EDD034022316B08D007BAB75 /* PDFAnnotation+RemovePath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PDFAnnotation+RemovePath.swift"; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 				EDD033E62316827D007BAB75 /* Assets.xcassets */,
 				EDD033E82316827D007BAB75 /* LaunchScreen.storyboard */,
 				EDD033EB2316827D007BAB75 /* Info.plist */,
-				EDD033F823169480007BAB75 /* 241_introducing_pdfkit_on_ios.pdf */,
 			);
 			path = PDFEditor;
 			sourceTree = "<group>";
@@ -158,7 +155,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDD033EA2316827D007BAB75 /* LaunchScreen.storyboard in Resources */,
-				EDD033F923169480007BAB75 /* 241_introducing_pdfkit_on_ios.pdf in Resources */,
 				EDD033E72316827D007BAB75 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
