@@ -28,7 +28,21 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        // FIXME: - Download PDF
         fetchPDF()
+
+        // FIXME: - Save PDF
+        DispatchQueue.global(qos: .default).asyncAfter(deadline: .now() + 60.0) { [weak self] in
+            guard let pdfData = self?.pdfEditView.document.dataRepresentation() else { return }
+
+            let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory,
+                                                                    .userDomainMask,
+                                                                    true)[0]
+
+            let url = URL(fileURLWithPath: "\(documentsPath)/file.pdf")
+            try? pdfData.write(to: url)
+        }
     }
 
 
