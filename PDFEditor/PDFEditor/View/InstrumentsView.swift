@@ -15,7 +15,7 @@ enum TriggerType {
 
 protocol InstrumentsViewDelegate: class {
     func buttonsForInstruments() -> [InstrumentsButtonViewModel]
-    func didTriggerButton(at index: Int, type: TriggerType)
+    func didTriggerButton(at model: InstrumentsButtonViewModel, type: TriggerType)
 }
 
 struct InstrumentsButtonViewModel {
@@ -119,24 +119,27 @@ extension InstrumentsView: UITableViewDelegate {
     }
 
     func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
-        let selectedIndex = delegate?.buttonsForInstruments().firstIndex(where: { (model) -> Bool in
+        guard let buttonsForInstruments = delegate?.buttonsForInstruments() else { return nil }
+        let selectedIndex = buttonsForInstruments.firstIndex(where: { (model) -> Bool in
             return model.isSelected
         })
 
         if selectedIndex == indexPath.row {
             tableView.deselectRow(at: indexPath, animated: true)
-            delegate?.didTriggerButton(at: indexPath.row, type: .deselect)
+            delegate?.didTriggerButton(at: buttonsForInstruments[indexPath.row], type: .deselect)
             return nil
         }
         return indexPath
     }
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        delegate?.didTriggerButton(at: indexPath.row, type: .select)
+        guard let buttonsForInstruments = delegate?.buttonsForInstruments() else { return }
+        delegate?.didTriggerButton(at: buttonsForInstruments[indexPath.row], type: .select)
     }
 
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
-        delegate?.didTriggerButton(at: indexPath.row, type: .deselect)
+        guard let buttonsForInstruments = delegate?.buttonsForInstruments() else { return }
+        delegate?.didTriggerButton(at: buttonsForInstruments[indexPath.row], type: .deselect)
     }
 
 }

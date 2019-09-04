@@ -139,12 +139,20 @@ class PDFEditView: UIView {
                                                 tintColor: drawingColor,
                                                 isSelected: false)
 
+    lazy var trash = InstrumentsButtonViewModel(index: 5,
+                                                image: getImage(with: "trash"),
+                                                tintColor: .black,
+                                                isSelected: false)
+
+
+
     lazy var buttonViewModelArray = [
         pencil,
         erase,
         arrow_left,
         arrow_right,
-        color_pick
+        color_pick,
+        trash
     ]
 
     lazy var drawingGestureRecognizer: DrawingGestureRecognizer = {
@@ -303,19 +311,19 @@ extension PDFEditView: InstrumentsViewDelegate {
         return buttonViewModelArray
     }
 
-    func didTriggerButton(at index: Int, type: TriggerType) {
+    func didTriggerButton(at model: InstrumentsButtonViewModel, type: TriggerType) {
 
         buttonViewModelArray = buttonViewModelArray.enumerated().map { (arg) -> InstrumentsButtonViewModel in
-            var (key, model) = arg
+            var (key, value) = arg
 
             switch type {
             case .select:
-                model.updateIsSelected(key == index)
+                value.updateIsSelected(key == model.index)
             case .deselect:
-                model.updateIsSelected(false)
+                value.updateIsSelected(false)
             }
 
-            return model
+            return value
         }
 
         drawConfigurationView.isHidden = true
@@ -326,28 +334,34 @@ extension PDFEditView: InstrumentsViewDelegate {
             return
         }
 
-        if index == pencil.index {
+        if model.index == pencil.index {
             drawingTool = .pen
             lastRemovedAnnotations = []
-        } else if index == erase.index {
+        } else if model.index == erase.index {
             drawingTool = .eraser
             lastRemovedAnnotations = []
-        } else if index == arrow_left.index {
+        } else if model.index == arrow_left.index {
             drawingTool = .disable
             guard let page = pdfView.currentPage else { return }
             guard let last = page.annotations.last else { return }
             lastRemovedAnnotations.append(last)
             page.removeAnnotation(last)
-        } else if index == arrow_right.index {
+        } else if model.index == arrow_right.index {
             drawingTool = .disable
             guard let page = pdfView.currentPage else { return }
             guard let last = lastRemovedAnnotations.last else { return }
             lastRemovedAnnotations.removeLast()
             page.addAnnotation(last)
-        } else if index == color_pick.index {
+        } else if model.index == color_pick.index {
             drawingTool = .disable
             drawConfigurationView.isHidden = false
             drawConfigurationView.setNeedsDisplay()
+        } else if model.index == trash.index {
+            guard let page = pdfView.currentPage else { return }
+            for annotation in page.annotations.reversed() {
+                page.removeAnnotation(annotation)
+                lastRemovedAnnotations.append(annotation)
+            }
         }
     }
 }
