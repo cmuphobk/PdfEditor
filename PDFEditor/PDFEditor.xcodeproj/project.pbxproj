@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ED2B2B79231E3ECA002B9902 /* InstrumentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2B2B78231E3ECA002B9902 /* InstrumentTableViewCell.swift */; };
+		ED78BD3A233239D4007713E3 /* PDFEditAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED78BD39233239D4007713E3 /* PDFEditAnnotation.swift */; };
 		EDD033E02316827C007BAB75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD033DF2316827C007BAB75 /* AppDelegate.swift */; };
 		EDD033E22316827C007BAB75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD033E12316827C007BAB75 /* ViewController.swift */; };
 		EDD033E72316827D007BAB75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD033E62316827D007BAB75 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		ED2B2B78231E3ECA002B9902 /* InstrumentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentTableViewCell.swift; sourceTree = "<group>"; };
+		ED78BD39233239D4007713E3 /* PDFEditAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFEditAnnotation.swift; sourceTree = "<group>"; };
 		EDD033DC2316827C007BAB75 /* PDFEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD033DF2316827C007BAB75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDD033E12316827C007BAB75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				EDD033FC2316A9F9007BAB75 /* DrawingGestureRecognizer.swift */,
 				EDD033FA2316A940007BAB75 /* PDFView+DisableSelection.swift */,
 				EDD034022316B08D007BAB75 /* PDFAnnotation+RemovePath.swift */,
+				ED78BD39233239D4007713E3 /* PDFEditAnnotation.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDD033F723168284007BAB75 /* InstrumentsView.swift in Sources */,
+				ED78BD3A233239D4007713E3 /* PDFEditAnnotation.swift in Sources */,
 				EDD034032316B08D007BAB75 /* PDFAnnotation+RemovePath.swift in Sources */,
 				EDD033F523168284007BAB75 /* PDFEditView.swift in Sources */,
 				EDD033E22316827C007BAB75 /* ViewController.swift in Sources */,

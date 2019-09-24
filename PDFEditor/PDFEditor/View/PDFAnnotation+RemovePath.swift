@@ -12,8 +12,17 @@ import Foundation
 
 extension PDFAnnotation {
 
-    func removePath(at point: CGPoint)  {
-        guard let paths = paths else { return }
+    func removePath(at point: CGPoint) -> PDFAnnotation?  {
+
+        if type == "Widget" {
+            if bounds.contains(point) {
+                page?.removeAnnotation(self)
+                return self
+            }
+            return nil
+        }
+
+        guard let paths = paths else { return nil }
         for path in paths {
             let erasePath = path.cgPath.copy(strokingWithWidth: 10.0,
                                              lineCap: .round,
@@ -28,9 +37,10 @@ extension PDFAnnotation {
         }
         if self.paths?.count == 0 {
             page?.removeAnnotation(self)
-            return
+            return self
         }
         page?.addAnnotation(self)
+        return nil
     }
     
 }
