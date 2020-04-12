@@ -23,7 +23,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window.backgroundColor = .white
         window.makeKeyAndVisible()
 
-
         ThemeManager.applyTheme(theme: .default)
 
         self.window = window

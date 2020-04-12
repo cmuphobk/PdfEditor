@@ -9,14 +9,14 @@
 import UIKit
 import PDFKit
 
-enum DrawingTool: Int {
+public enum DrawingTool: Int {
     case pen = 0
     case text = 1
     case eraser = 2
     case disable = 3
 }
 
-class PDFEditView: UIView {
+public class PDFEditView: UIView {
 
     // MARK: - Constants and Computed
 
@@ -35,7 +35,7 @@ class PDFEditView: UIView {
 
     // MARK: - UIElements
 
-    lazy var pdfView: PDFView = {
+    private lazy var pdfView: PDFView = {
         let pdfView = PDFView()
         pdfView.usePageViewController(true)
         pdfView.pageBreakMargins = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
@@ -68,7 +68,7 @@ class PDFEditView: UIView {
         drawingTool = .disable
     }
 
-    lazy var thumbnailView: PDFThumbnailView = {
+    private lazy var thumbnailView: PDFThumbnailView = {
         let thumbnailView = PDFThumbnailView()
         thumbnailView.pdfView = pdfView
         thumbnailView.thumbnailSize = CGSize(width: viewThumbnailPDFHeight,
@@ -84,7 +84,7 @@ class PDFEditView: UIView {
         return thumbnailView
     }()
 
-    lazy var instrumentsShadowLayer: CALayer = {
+    private lazy var instrumentsShadowLayer: CALayer = {
         let instrumentsShadowLayer = CALayer()
         instrumentsShadowLayer.backgroundColor = UIColor.white.cgColor
         instrumentsShadowLayer.shadowColor = UIColor.lightGray.cgColor
@@ -97,7 +97,7 @@ class PDFEditView: UIView {
     }()
 
 
-    lazy var instrumentsView: InstrumentsView = {
+    private lazy var instrumentsView: InstrumentsView = {
         let instrumentsView = InstrumentsView()
         if let index = buttonViewModelArray.firstIndex(where: {$0.isSelected == true}) {
             instrumentsView.tableView.selectRow(at: IndexPath(row: index, section: 0),
@@ -107,7 +107,7 @@ class PDFEditView: UIView {
         return instrumentsView
     }()
 
-    lazy var drawConfigurationView: DrawConfigurationView = {
+    private lazy var drawConfigurationView: DrawConfigurationView = {
         let drawConfigurationView = DrawConfigurationView()
         drawConfigurationView.pickedColor = drawingColor
         drawConfigurationView.isHidden = true
@@ -117,7 +117,7 @@ class PDFEditView: UIView {
         return drawConfigurationView
     }()
 
-    lazy var colorPickerView: ColorPickerView = {
+    private lazy var colorPickerView: ColorPickerView = {
         let colorPickerView = ColorPickerView()
         colorPickerView.delegate = self
         colorPickerView.isHidden = true
@@ -125,8 +125,8 @@ class PDFEditView: UIView {
     }()
 
     // MARK: - Stored
-
-    var document: PDFDocument! {
+    
+    public var document: PDFDocument! {
         get {
             return pdfView.document
         }
@@ -141,44 +141,42 @@ class PDFEditView: UIView {
         }
     }
 
-    lazy var pencil = InstrumentsButtonViewModel(index: 0,
+    private lazy var pencil = InstrumentsButtonViewModel(index: 0,
                                                  image: getImage(with: "pencil"),
                                                  tintColor: .black,
                                                  isSelected: false)
 
-    lazy var text = InstrumentsButtonViewModel(index: 1,
+    private lazy var text = InstrumentsButtonViewModel(index: 1,
                                                image: getImage(with: "text"),
                                                tintColor: .black,
                                                isSelected: false)
 
-    lazy var erase = InstrumentsButtonViewModel(index: 2,
+    private lazy var erase = InstrumentsButtonViewModel(index: 2,
                                                 image: getImage(with: "erase"),
                                                 tintColor: .black,
                                                 isSelected: false)
 
-    lazy var arrow_left = InstrumentsButtonViewModel(index: 3,
+    private lazy var arrow_left = InstrumentsButtonViewModel(index: 3,
                                                      image: getImage(with: "arrow_left"),
                                                      tintColor: .black,
                                                      isSelected: false)
 
-    lazy var arrow_right = InstrumentsButtonViewModel(index: 4,
+    private lazy var arrow_right = InstrumentsButtonViewModel(index: 4,
                                                       image: getImage(with: "arrow_right"),
                                                       tintColor: .lightGray,
                                                       isSelected: false)
 
-    lazy var color_pick = InstrumentsButtonViewModel(index: 5,
+    private lazy var color_pick = InstrumentsButtonViewModel(index: 5,
                                                      image: getImage(with: "color_pick"),
                                                      tintColor: drawingColor,
                                                      isSelected: false)
 
-    lazy var trash = InstrumentsButtonViewModel(index: 6,
+    private lazy var trash = InstrumentsButtonViewModel(index: 6,
                                                 image: getImage(with: "trash"),
                                                 tintColor: .black,
                                                 isSelected: false)
 
-
-
-    lazy var buttonViewModelArray = [
+    private lazy var buttonViewModelArray = [
         pencil,
         text,
         erase,
@@ -188,7 +186,7 @@ class PDFEditView: UIView {
         trash
     ]
 
-    lazy var drawingGestureRecognizer: DrawingGestureRecognizer = {
+    private lazy var drawingGestureRecognizer: DrawingGestureRecognizer = {
         let drawingGestureRecognizer = DrawingGestureRecognizer()
         drawingGestureRecognizer.drawingDelegate = self
         return drawingGestureRecognizer
@@ -200,13 +198,13 @@ class PDFEditView: UIView {
 //        return tapGestureRecognizer
 //    }()
 
-    lazy var panGestureRecognizer: UIPanGestureRecognizer = {
+    private lazy var panGestureRecognizer: UIPanGestureRecognizer = {
         let panGestureRecognizer = UIPanGestureRecognizer(target: self, action: #selector(pan(_:)))
         panGestureRecognizer.delegate = self
         return panGestureRecognizer
     }()
 
-    lazy var pinchGestureRecognizer: UIPinchGestureRecognizer = {
+    private lazy var pinchGestureRecognizer: UIPinchGestureRecognizer = {
         let pinchGestureRecognizer = UIPinchGestureRecognizer(target: self, action:#selector(pinch(_:)))
         pinchGestureRecognizer.delegate = self
         return pinchGestureRecognizer
@@ -296,7 +294,7 @@ class PDFEditView: UIView {
 
     // MARK: - Lifecycle
 
-    override func draw(_ rect: CGRect) {
+    override public func draw(_ rect: CGRect) {
         super.draw(rect)
 
         if let sublayers = layer.sublayers, !sublayers.contains(instrumentsShadowLayer) {
@@ -309,7 +307,7 @@ class PDFEditView: UIView {
                                               height: viewInstrumentsHeight)
     }
 
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
 
         pdfView.frame = CGRect(x: 0.0,
@@ -332,7 +330,7 @@ class PDFEditView: UIView {
     }
 
     private(set) var needCreateConstraints: Bool = true
-    override func updateConstraints() {
+    override public func updateConstraints() {
         super.updateConstraints()
 
         if !needCreateConstraints {
@@ -388,6 +386,7 @@ extension PDFEditView: DrawConfigurationViewDelegate {
 // MARK: - InstrumentsViewDelegate
 
 extension PDFEditView: InstrumentsViewDelegate {
+    
     func buttonsForInstruments() -> [InstrumentsButtonViewModel] {
         return buttonViewModelArray
     }
@@ -643,7 +642,7 @@ extension PDFEditView {
 
 extension PDFEditView: UIGestureRecognizerDelegate {
 
-    func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldBeRequiredToFailBy otherGestureRecognizer: UIGestureRecognizer) -> Bool {
+    public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldBeRequiredToFailBy otherGestureRecognizer: UIGestureRecognizer) -> Bool {
 //        if gestureRecognizer is UITapGestureRecognizer && otherGestureRecognizer is UITapGestureRecognizer {
 //            return true
 //        }

@@ -3,42 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED2B2B79231E3ECA002B9902 /* InstrumentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2B2B78231E3ECA002B9902 /* InstrumentTableViewCell.swift */; };
-		ED78BD3A233239D4007713E3 /* PDFEditAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED78BD39233239D4007713E3 /* PDFEditAnnotation.swift */; };
+		DEC003C670B8E33215CD12C5 /* Pods_PDFEditorExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83341D511413E0A9AB401675 /* Pods_PDFEditorExample.framework */; };
 		EDD033E02316827C007BAB75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD033DF2316827C007BAB75 /* AppDelegate.swift */; };
 		EDD033E22316827C007BAB75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD033E12316827C007BAB75 /* ViewController.swift */; };
 		EDD033E72316827D007BAB75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDD033E62316827D007BAB75 /* Assets.xcassets */; };
 		EDD033EA2316827D007BAB75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD033E82316827D007BAB75 /* LaunchScreen.storyboard */; };
-		EDD033F523168284007BAB75 /* PDFEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD033F223168284007BAB75 /* PDFEditView.swift */; };
-		EDD033F623168284007BAB75 /* DrawConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD033F323168284007BAB75 /* DrawConfigurationView.swift */; };
-		EDD033F723168284007BAB75 /* InstrumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD033F423168284007BAB75 /* InstrumentsView.swift */; };
-		EDD033FB2316A940007BAB75 /* PDFView+DisableSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD033FA2316A940007BAB75 /* PDFView+DisableSelection.swift */; };
-		EDD033FD2316A9F9007BAB75 /* DrawingGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD033FC2316A9F9007BAB75 /* DrawingGestureRecognizer.swift */; };
-		EDD034032316B08D007BAB75 /* PDFAnnotation+RemovePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD034022316B08D007BAB75 /* PDFAnnotation+RemovePath.swift */; };
-		EDD03405231905A5007BAB75 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD03404231905A5007BAB75 /* ColorPickerView.swift */; };
 		EDD03407231D361A007BAB75 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD03406231D361A007BAB75 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		82B5E64C24430BCE006513CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82B5E63924430BCE006513CF /* PDFEditor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 82B5E605244308B2006513CF;
+			remoteInfo = PDFEditor;
+		};
+		82B5E64E24430BCE006513CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82B5E63924430BCE006513CF /* PDFEditor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 82B5E60E244308B2006513CF;
+			remoteInfo = PDFEditorTests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		ED2B2B78231E3ECA002B9902 /* InstrumentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentTableViewCell.swift; sourceTree = "<group>"; };
-		ED78BD39233239D4007713E3 /* PDFEditAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFEditAnnotation.swift; sourceTree = "<group>"; };
-		EDD033DC2316827C007BAB75 /* PDFEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B5E63924430BCE006513CF /* PDFEditor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PDFEditor.xcodeproj; sourceTree = "<group>"; };
+		83341D511413E0A9AB401675 /* Pods_PDFEditorExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDFEditorExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		938E0283745DF1CF03FEBB4C /* Pods-PDFEditorExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFEditorExample.release.xcconfig"; path = "Target Support Files/Pods-PDFEditorExample/Pods-PDFEditorExample.release.xcconfig"; sourceTree = "<group>"; };
+		A1C7D768B5088ADF028E3475 /* Pods-PDFEditorExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFEditorExample.debug.xcconfig"; path = "Target Support Files/Pods-PDFEditorExample/Pods-PDFEditorExample.debug.xcconfig"; sourceTree = "<group>"; };
+		EDD033DC2316827C007BAB75 /* PDFEditorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFEditorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD033DF2316827C007BAB75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDD033E12316827C007BAB75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EDD033E62316827D007BAB75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDD033E92316827D007BAB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDD033EB2316827D007BAB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDD033F223168284007BAB75 /* PDFEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditView.swift; sourceTree = "<group>"; };
-		EDD033F323168284007BAB75 /* DrawConfigurationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawConfigurationView.swift; sourceTree = "<group>"; };
-		EDD033F423168284007BAB75 /* InstrumentsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentsView.swift; sourceTree = "<group>"; };
-		EDD033FA2316A940007BAB75 /* PDFView+DisableSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFView+DisableSelection.swift"; sourceTree = "<group>"; };
-		EDD033FC2316A9F9007BAB75 /* DrawingGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingGestureRecognizer.swift; sourceTree = "<group>"; };
-		EDD034022316B08D007BAB75 /* PDFAnnotation+RemovePath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PDFAnnotation+RemovePath.swift"; sourceTree = "<group>"; };
-		EDD03404231905A5007BAB75 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 		EDD03406231D361A007BAB75 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,24 +51,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC003C670B8E33215CD12C5 /* Pods_PDFEditorExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A5FE50F2B092FAE1891A074 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83341D511413E0A9AB401675 /* Pods_PDFEditorExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F502255A58C35D7FDB65E82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1C7D768B5088ADF028E3475 /* Pods-PDFEditorExample.debug.xcconfig */,
+				938E0283745DF1CF03FEBB4C /* Pods-PDFEditorExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		82B5E63424430BCE006513CF /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				82B5E63524430BCE006513CF /* PDFEditor */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		82B5E63524430BCE006513CF /* PDFEditor */ = {
+			isa = PBXGroup;
+			children = (
+				82B5E63924430BCE006513CF /* PDFEditor.xcodeproj */,
+			);
+			path = PDFEditor;
+			sourceTree = "<group>";
+		};
+		82B5E63A24430BCE006513CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82B5E64D24430BCE006513CF /* PDFEditor.framework */,
+				82B5E64F24430BCE006513CF /* PDFEditorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		EDD033D32316827C007BAB75 = {
 			isa = PBXGroup;
 			children = (
 				EDD033DE2316827C007BAB75 /* PDFEditor */,
+				82B5E63424430BCE006513CF /* Libraries */,
 				EDD033DD2316827C007BAB75 /* Products */,
+				4F502255A58C35D7FDB65E82 /* Pods */,
+				4A5FE50F2B092FAE1891A074 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		EDD033DD2316827C007BAB75 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EDD033DC2316827C007BAB75 /* PDFEditor.app */,
+				EDD033DC2316827C007BAB75 /* PDFEditorExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,7 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				EDD03406231D361A007BAB75 /* Theme.swift */,
-				EDD033F123168284007BAB75 /* View */,
 				EDD033DF2316827C007BAB75 /* AppDelegate.swift */,
 				EDD033E12316827C007BAB75 /* ViewController.swift */,
 				EDD033E62316827D007BAB75 /* Assets.xcassets */,
@@ -83,40 +132,26 @@
 			path = PDFEditor;
 			sourceTree = "<group>";
 		};
-		EDD033F123168284007BAB75 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				EDD033F223168284007BAB75 /* PDFEditView.swift */,
-				EDD033F423168284007BAB75 /* InstrumentsView.swift */,
-				ED2B2B78231E3ECA002B9902 /* InstrumentTableViewCell.swift */,
-				EDD033F323168284007BAB75 /* DrawConfigurationView.swift */,
-				EDD03404231905A5007BAB75 /* ColorPickerView.swift */,
-				EDD033FC2316A9F9007BAB75 /* DrawingGestureRecognizer.swift */,
-				EDD033FA2316A940007BAB75 /* PDFView+DisableSelection.swift */,
-				EDD034022316B08D007BAB75 /* PDFAnnotation+RemovePath.swift */,
-				ED78BD39233239D4007713E3 /* PDFEditAnnotation.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EDD033DB2316827C007BAB75 /* PDFEditor */ = {
+		EDD033DB2316827C007BAB75 /* PDFEditorExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EDD033EE2316827D007BAB75 /* Build configuration list for PBXNativeTarget "PDFEditor" */;
+			buildConfigurationList = EDD033EE2316827D007BAB75 /* Build configuration list for PBXNativeTarget "PDFEditorExample" */;
 			buildPhases = (
+				EF7653062347EC0491BAB7A6 /* [CP] Check Pods Manifest.lock */,
 				EDD033D82316827C007BAB75 /* Sources */,
 				EDD033D92316827C007BAB75 /* Frameworks */,
 				EDD033DA2316827C007BAB75 /* Resources */,
+				CEFC065FDC77710C4C3EEE6E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PDFEditor;
+			name = PDFEditorExample;
 			productName = PDFEditor;
-			productReference = EDD033DC2316827C007BAB75 /* PDFEditor.app */;
+			productReference = EDD033DC2316827C007BAB75 /* PDFEditorExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -134,7 +169,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EDD033D72316827C007BAB75 /* Build configuration list for PBXProject "PDFEditor" */;
+			buildConfigurationList = EDD033D72316827C007BAB75 /* Build configuration list for PBXProject "PDFEditorExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,12 +180,35 @@
 			mainGroup = EDD033D32316827C007BAB75;
 			productRefGroup = EDD033DD2316827C007BAB75 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 82B5E63A24430BCE006513CF /* Products */;
+					ProjectRef = 82B5E63924430BCE006513CF /* PDFEditor.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				EDD033DB2316827C007BAB75 /* PDFEditor */,
+				EDD033DB2316827C007BAB75 /* PDFEditorExample */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		82B5E64D24430BCE006513CF /* PDFEditor.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PDFEditor.framework;
+			remoteRef = 82B5E64C24430BCE006513CF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		82B5E64F24430BCE006513CF /* PDFEditorTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PDFEditorTests.xctest;
+			remoteRef = 82B5E64E24430BCE006513CF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		EDD033DA2316827C007BAB75 /* Resources */ = {
@@ -164,23 +222,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CEFC065FDC77710C4C3EEE6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PDFEditorExample/Pods-PDFEditorExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PDFEditorExample/Pods-PDFEditorExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PDFEditorExample/Pods-PDFEditorExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF7653062347EC0491BAB7A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PDFEditorExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EDD033D82316827C007BAB75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDD033F723168284007BAB75 /* InstrumentsView.swift in Sources */,
-				ED78BD3A233239D4007713E3 /* PDFEditAnnotation.swift in Sources */,
-				EDD034032316B08D007BAB75 /* PDFAnnotation+RemovePath.swift in Sources */,
-				EDD033F523168284007BAB75 /* PDFEditView.swift in Sources */,
 				EDD033E22316827C007BAB75 /* ViewController.swift in Sources */,
-				EDD033FD2316A9F9007BAB75 /* DrawingGestureRecognizer.swift in Sources */,
-				EDD03405231905A5007BAB75 /* ColorPickerView.swift in Sources */,
-				ED2B2B79231E3ECA002B9902 /* InstrumentTableViewCell.swift in Sources */,
-				EDD033F623168284007BAB75 /* DrawConfigurationView.swift in Sources */,
 				EDD03407231D361A007BAB75 /* Theme.swift in Sources */,
 				EDD033E02316827C007BAB75 /* AppDelegate.swift in Sources */,
-				EDD033FB2316A940007BAB75 /* PDFView+DisableSelection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +407,7 @@
 		};
 		EDD033EF2316827D007BAB75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C7D768B5088ADF028E3475 /* Pods-PDFEditorExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -326,7 +418,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.baccasoft.PDFEditor;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.baccasoft.PDFEditorExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = IosWildcardDev;
 				SWIFT_VERSION = 5.0;
@@ -336,6 +428,7 @@
 		};
 		EDD033F02316827D007BAB75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 938E0283745DF1CF03FEBB4C /* Pods-PDFEditorExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
@@ -347,7 +440,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.baccasoft.PDFEditor;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.baccasoft.PDFEditorExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = MosInDevInHouse;
 				SWIFT_VERSION = 5.0;
@@ -358,7 +451,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EDD033D72316827C007BAB75 /* Build configuration list for PBXProject "PDFEditor" */ = {
+		EDD033D72316827C007BAB75 /* Build configuration list for PBXProject "PDFEditorExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EDD033EC2316827D007BAB75 /* Debug */,
@@ -367,7 +460,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EDD033EE2316827D007BAB75 /* Build configuration list for PBXNativeTarget "PDFEditor" */ = {
+		EDD033EE2316827D007BAB75 /* Build configuration list for PBXNativeTarget "PDFEditorExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EDD033EF2316827D007BAB75 /* Debug */,
