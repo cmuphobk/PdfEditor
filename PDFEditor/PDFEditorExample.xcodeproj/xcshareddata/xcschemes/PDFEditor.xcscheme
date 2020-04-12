@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EDD033DB2316827C007BAB75"
-               BuildableName = "PDFEditor.app"
-               BlueprintName = "PDFEditor"
-               ReferencedContainer = "container:PDFEditor.xcodeproj">
+               BuildableName = "PDFEditorExample.app"
+               BlueprintName = "PDFEditorExample"
+               ReferencedContainer = "container:PDFEditorExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -27,19 +27,17 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <Testables>
-      </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EDD033DB2316827C007BAB75"
-            BuildableName = "PDFEditor.app"
-            BlueprintName = "PDFEditor"
-            ReferencedContainer = "container:PDFEditor.xcodeproj">
+            BuildableName = "PDFEditorExample.app"
+            BlueprintName = "PDFEditorExample"
+            ReferencedContainer = "container:PDFEditorExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
+      <Testables>
+      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -56,9 +54,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EDD033DB2316827C007BAB75"
-            BuildableName = "PDFEditor.app"
-            BlueprintName = "PDFEditor"
-            ReferencedContainer = "container:PDFEditor.xcodeproj">
+            BuildableName = "PDFEditorExample.app"
+            BlueprintName = "PDFEditorExample"
+            ReferencedContainer = "container:PDFEditorExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -73,8 +71,6 @@
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -87,9 +83,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EDD033DB2316827C007BAB75"
-            BuildableName = "PDFEditor.app"
-            BlueprintName = "PDFEditor"
-            ReferencedContainer = "container:PDFEditor.xcodeproj">
+            BuildableName = "PDFEditorExample.app"
+            BlueprintName = "PDFEditorExample"
+            ReferencedContainer = "container:PDFEditorExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import PDFEditor
+
+// FIXME: - incapsulate in PDFEditor
 import PDFKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
 
     lazy var pdfEditView: PDFEditView = {
         let pdfEditView = PDFEditView()
@@ -32,7 +35,7 @@ class ViewController: UIViewController {
         // FIXME: - Download PDF
         fetchPDF()
 
-        // FIXME: - Save PDF
+        // FIXME: - Save PDF without data getting
         DispatchQueue.global(qos: .default).asyncAfter(deadline: .now() + 60.0) { [weak self] in
             guard let pdfData = self?.pdfEditView.document.dataRepresentation() else { return }
 
@@ -63,6 +66,7 @@ extension ViewController:  URLSessionDownloadDelegate {
                     didFinishDownloadingTo location: URL) {
         print("downloadLocation:", location)
 
+        // FIXME: - initialize pdfEditView with url
         let pdfDocument = PDFDocument(url: location)
 
         DispatchQueue.main.async { [weak self] in

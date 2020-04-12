@@ -1,0 +1,16 @@
+PODS:
+  - PDFEditor (0.0.1)
+
+DEPENDENCIES:
+  - PDFEditor (from `Libraries/PDFEditor/`)
+
+EXTERNAL SOURCES:
+  PDFEditor:
+    :path: Libraries/PDFEditor/
+
+SPEC CHECKSUMS:
+  PDFEditor: 6ebc223693ec84f614aa20687a3ef72b84e86d17
+
+PODFILE CHECKSUM: 28c7a48f21678570458fdde3459c3f4d8749fabf
+
+COCOAPODS: 1.8.4
