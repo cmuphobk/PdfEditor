@@ -2,15 +2,20 @@ PODS:
   - PDFEditor (0.0.1)
 
 DEPENDENCIES:
-  - PDFEditor (from `../`)
+  - "PDFEditor (from `git@github.com:cmuphobk/PdfEditor.git`)"
 
 EXTERNAL SOURCES:
   PDFEditor:
-    :path: "../"
+    :git: "git@github.com:cmuphobk/PdfEditor.git"
+
+CHECKOUT OPTIONS:
+  PDFEditor:
+    :commit: b6fa98c95313d1a47fd41ae35211da639a75b855
+    :git: "git@github.com:cmuphobk/PdfEditor.git"
 
 SPEC CHECKSUMS:
   PDFEditor: 4c1af82d5954292d2cd28b62e4628bd8d08a7c8d
 
-PODFILE CHECKSUM: 8ff6d3d5a3f5bfd89cb513b90b972eabd33a2c86
+PODFILE CHECKSUM: 9258c75307bf5b56c66671ba05f34c7fa0779894
 
 COCOAPODS: 1.8.4

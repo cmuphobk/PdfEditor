@@ -6,6 +6,6 @@ target 'PDFEditorExample' do
   use_frameworks!
 
   # Pods for PDFEditorExample
-  pod "PDFEditor", :path => "../"
+  pod "PDFEditor", :git => 'git@github.com:cmuphobk/PdfEditor.git'
 
 end
