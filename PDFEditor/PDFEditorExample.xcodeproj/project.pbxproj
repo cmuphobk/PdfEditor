@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82B5E6612444AD1C006513CF /* PDFEditor.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 82B5E65E2444AD1C006513CF /* PDFEditor.podspec */; };
 		DEC003C670B8E33215CD12C5 /* Pods_PDFEditorExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83341D511413E0A9AB401675 /* Pods_PDFEditorExample.framework */; };
 		EDD033E02316827C007BAB75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD033DF2316827C007BAB75 /* AppDelegate.swift */; };
 		EDD033E22316827C007BAB75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD033E12316827C007BAB75 /* ViewController.swift */; };
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		82B5E63924430BCE006513CF /* PDFEditor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PDFEditor.xcodeproj; sourceTree = "<group>"; };
+		82B5E65E2444AD1C006513CF /* PDFEditor.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PDFEditor.podspec; path = ../../../PDFEditor.podspec; sourceTree = "<group>"; };
 		83341D511413E0A9AB401675 /* Pods_PDFEditorExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDFEditorExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		938E0283745DF1CF03FEBB4C /* Pods-PDFEditorExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFEditorExample.release.xcconfig"; path = "Target Support Files/Pods-PDFEditorExample/Pods-PDFEditorExample.release.xcconfig"; sourceTree = "<group>"; };
 		A1C7D768B5088ADF028E3475 /* Pods-PDFEditorExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PDFEditorExample.debug.xcconfig"; path = "Target Support Files/Pods-PDFEditorExample/Pods-PDFEditorExample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 		82B5E63524430BCE006513CF /* PDFEditor */ = {
 			isa = PBXGroup;
 			children = (
+				82B5E65E2444AD1C006513CF /* PDFEditor.podspec */,
 				82B5E63924430BCE006513CF /* PDFEditor.xcodeproj */,
 			);
 			path = PDFEditor;
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDD033EA2316827D007BAB75 /* LaunchScreen.storyboard in Resources */,
+				82B5E6612444AD1C006513CF /* PDFEditor.podspec in Resources */,
 				EDD033E72316827D007BAB75 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

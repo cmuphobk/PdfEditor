@@ -3,25 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		06E59D2CC15523E58EEEFDE4D72811DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2A4E2760A1D023C90D5E85965543A574 /* DrawingGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B075BAD09D23C77D325A2938EC1433 /* DrawingGestureRecognizer.swift */; };
-		68532C0A42F6C43846560E03E80D53AF /* DrawConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF9D1C4C807847836C60F3B2CFE86F6 /* DrawConfigurationView.swift */; };
-		852CADA347352C042A8ABFB6D3FC8021 /* PDFEditor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06814F9381C32760D726E53B87F4EB81 /* PDFEditor-dummy.m */; };
+		2A4E2760A1D023C90D5E85965543A574 /* DrawingGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AB89144452785D2F4AB6C311868B11 /* DrawingGestureRecognizer.swift */; };
+		68532C0A42F6C43846560E03E80D53AF /* DrawConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9BE8317A94972B5CA2CA295C5FFF7D /* DrawConfigurationView.swift */; };
+		852CADA347352C042A8ABFB6D3FC8021 /* PDFEditor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E372AFD387778621E218BB04A3904EC /* PDFEditor-dummy.m */; };
 		96E4D1D4413803B6A55E4BE7010BE324 /* Pods-PDFEditorExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2D4D81DB8BDB7E2F9D39BB892DF3600 /* Pods-PDFEditorExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD56175E77BBEC8147082E6CF11C760E /* PDFAnnotation+RemovePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8053AAE4D06DD5F3C1E7A0B15BCED2C8 /* PDFAnnotation+RemovePath.swift */; };
+		9D3D125A162A2E3BAACE84B69ACEE916 /* PDFEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B9020FB020BC55092E0B18E478EBF24 /* PDFEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD56175E77BBEC8147082E6CF11C760E /* PDFAnnotation+RemovePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601967160BBCDE51BCD0D86441A6EA19 /* PDFAnnotation+RemovePath.swift */; };
 		B04B550959D99D93C162EB05C5E6804D /* Pods-PDFEditorExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E821D1B79C56B54FC7CB2A07FA2E9A /* Pods-PDFEditorExample-dummy.m */; };
-		BF94A085D3892FA727732B1D24FF159A /* PDFEditor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F635A97BFAFC88AC1A0A07C4105290A /* PDFEditor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD442BF671A1067F3E43478ED0AD5F98 /* PDFEditAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2530B1B0E8596BB7B48685DAB8E8CE8B /* PDFEditAnnotation.swift */; };
-		CEC77E5E19235242A0D6C7B50A585393 /* PDFView+DisableSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABAFC50C7BC9DE8FD0D5192FDDFD3DD /* PDFView+DisableSelection.swift */; };
-		D03276486538CE0037F9815AE2A48082 /* PDFEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7AFFD1E36167E567D3B8863F3D1128 /* PDFEditView.swift */; };
-		E1D72084EDBBE2D31FDC8B1C3AE664BC /* InstrumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E454249B16BB98A7006D68D04CD9058F /* InstrumentsView.swift */; };
-		E2BA3DF74332B0B5B627D3E32FB591CB /* InstrumentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7470DBBD7C4FBAD82461A37EBF27EB5E /* InstrumentTableViewCell.swift */; };
-		EBBC2CC2B402C9BC3868101EB412EE81 /* PDFEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 67F3B3D0FF1A354F3D6048D1189CC923 /* PDFEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F754F3F63ABF008158CA5AB72C1739CC /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6636742369F8CA85FD46F5816A1FCF94 /* ColorPickerView.swift */; };
+		BF94A085D3892FA727732B1D24FF159A /* PDFEditor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10EC989A33CAAEE810410A6EA9A45064 /* PDFEditor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD442BF671A1067F3E43478ED0AD5F98 /* PDFEditAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89341AF161FC11FB05BADC1F00CB4BAC /* PDFEditAnnotation.swift */; };
+		CEC77E5E19235242A0D6C7B50A585393 /* PDFView+DisableSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B766F84B2212EF92E60A6100720B5F3 /* PDFView+DisableSelection.swift */; };
+		D03276486538CE0037F9815AE2A48082 /* PDFEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D0D140CBBB16F2B2D39E1711F1530D /* PDFEditView.swift */; };
+		E1D72084EDBBE2D31FDC8B1C3AE664BC /* InstrumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCC102B989C361164F19EE6758086A0 /* InstrumentsView.swift */; };
+		E2BA3DF74332B0B5B627D3E32FB591CB /* InstrumentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0662EF909E16C9DFDE9480963614D41F /* InstrumentTableViewCell.swift */; };
+		F754F3F63ABF008158CA5AB72C1739CC /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9017602F43B1D1FF1C1A12CF84580EEF /* ColorPickerView.swift */; };
 		F86CB739DFB3675D557E72C893744D83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,36 +36,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06814F9381C32760D726E53B87F4EB81 /* PDFEditor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PDFEditor-dummy.m"; sourceTree = "<group>"; };
-		12772B8ED43F773751AEB7BABB6D5B80 /* Pods_PDFEditorExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PDFEditorExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2530B1B0E8596BB7B48685DAB8E8CE8B /* PDFEditAnnotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFEditAnnotation.swift; sourceTree = "<group>"; };
+		0662EF909E16C9DFDE9480963614D41F /* InstrumentTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InstrumentTableViewCell.swift; sourceTree = "<group>"; };
+		0B766F84B2212EF92E60A6100720B5F3 /* PDFView+DisableSelection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "PDFView+DisableSelection.swift"; sourceTree = "<group>"; };
+		0E372AFD387778621E218BB04A3904EC /* PDFEditor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PDFEditor-dummy.m"; sourceTree = "<group>"; };
+		10EC989A33CAAEE810410A6EA9A45064 /* PDFEditor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PDFEditor-umbrella.h"; sourceTree = "<group>"; };
+		12772B8ED43F773751AEB7BABB6D5B80 /* Pods_PDFEditorExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PDFEditorExample.framework; path = "Pods-PDFEditorExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DB8B8C4148A4C64B293D4EC0204F04 /* PDFEditor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PDFEditor-prefix.pch"; sourceTree = "<group>"; };
+		2B2F47DB02199514F637BF8FB98B1D8E /* PDFEditor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PDFEditor.modulemap; sourceTree = "<group>"; };
+		2DDCB59F6BE9A6E7CB1EA9E498DDEA5C /* PDFEditor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PDFEditor.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		41B075BAD09D23C77D325A2938EC1433 /* DrawingGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DrawingGestureRecognizer.swift; sourceTree = "<group>"; };
-		45269DB3E6B7A784A196C9935D620019 /* PDFEditor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PDFEditor.xcconfig; sourceTree = "<group>"; };
-		4BF9D1C4C807847836C60F3B2CFE86F6 /* DrawConfigurationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DrawConfigurationView.swift; sourceTree = "<group>"; };
-		6636742369F8CA85FD46F5816A1FCF94 /* ColorPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
-		67F3B3D0FF1A354F3D6048D1189CC923 /* PDFEditor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFEditor.h; path = PDFEditor/PDFEditor.h; sourceTree = "<group>"; };
+		38B984D3FF73792574A8BBA3882D1A74 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3CCC102B989C361164F19EE6758086A0 /* InstrumentsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InstrumentsView.swift; sourceTree = "<group>"; };
+		4206ED800A45735CD83247A831E4CD86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		50D0D140CBBB16F2B2D39E1711F1530D /* PDFEditView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFEditView.swift; sourceTree = "<group>"; };
+		601967160BBCDE51BCD0D86441A6EA19 /* PDFAnnotation+RemovePath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "PDFAnnotation+RemovePath.swift"; sourceTree = "<group>"; };
 		6BD366B73351B61F106CC74E61C735C0 /* Pods-PDFEditorExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDFEditorExample.release.xcconfig"; sourceTree = "<group>"; };
-		7470DBBD7C4FBAD82461A37EBF27EB5E /* InstrumentTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InstrumentTableViewCell.swift; sourceTree = "<group>"; };
-		767F4582817D6136BE54A0557FD05D0D /* PDFEditor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PDFEditor.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		783786BF881E6BE142A156F796E18BEF /* PDFEditor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PDFEditor.modulemap; sourceTree = "<group>"; };
-		7F635A97BFAFC88AC1A0A07C4105290A /* PDFEditor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PDFEditor-umbrella.h"; sourceTree = "<group>"; };
-		8053AAE4D06DD5F3C1E7A0B15BCED2C8 /* PDFAnnotation+RemovePath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "PDFAnnotation+RemovePath.swift"; sourceTree = "<group>"; };
-		8266F7731F99128A8670239892986E59 /* PDFEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PDFEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B70E3EDCC6685B645D7B0D17E709EC6 /* PDFEditor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PDFEditor-prefix.pch"; sourceTree = "<group>"; };
-		8B7AFFD1E36167E567D3B8863F3D1128 /* PDFEditView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFEditView.swift; sourceTree = "<group>"; };
+		6FFF1AB290520101D49135B8BC234E2E /* PDFEditor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PDFEditor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7B9020FB020BC55092E0B18E478EBF24 /* PDFEditor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFEditor.h; path = PDFEditor/Libraries/PDFEditor/PDFEditor/PDFEditor.h; sourceTree = "<group>"; };
+		8266F7731F99128A8670239892986E59 /* PDFEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PDFEditor.framework; path = PDFEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89341AF161FC11FB05BADC1F00CB4BAC /* PDFEditAnnotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PDFEditAnnotation.swift; sourceTree = "<group>"; };
+		9017602F43B1D1FF1C1A12CF84580EEF /* ColorPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 		96E821D1B79C56B54FC7CB2A07FA2E9A /* Pods-PDFEditorExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PDFEditorExample-dummy.m"; sourceTree = "<group>"; };
 		99B9E461453E8B83A8809B0776166655 /* Pods-PDFEditorExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PDFEditorExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E0A8D45192FAA1A81BF87FFBD1EDAA9 /* Pods-PDFEditorExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PDFEditorExample-Info.plist"; sourceTree = "<group>"; };
 		A25C64087F777731DCA12B3C93623E3E /* Pods-PDFEditorExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PDFEditorExample.debug.xcconfig"; sourceTree = "<group>"; };
 		B08EB8D335DF86F422DD3644DEC582CA /* Pods-PDFEditorExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PDFEditorExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B2D4D81DB8BDB7E2F9D39BB892DF3600 /* Pods-PDFEditorExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PDFEditorExample-umbrella.h"; sourceTree = "<group>"; };
-		C29846471339FF2072B67F3377B70AA9 /* PDFEditor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PDFEditor-Info.plist"; sourceTree = "<group>"; };
 		C460459D64FA91E3EFA8D92C0FA0844E /* Pods-PDFEditorExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PDFEditorExample-frameworks.sh"; sourceTree = "<group>"; };
+		C996EF408AE5E1304EC6F714EB56F9FC /* PDFEditor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PDFEditor-Info.plist"; sourceTree = "<group>"; };
 		D8D7CD2D39FB5E6A86EB355278CE7FE0 /* Pods-PDFEditorExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PDFEditorExample.modulemap"; sourceTree = "<group>"; };
-		E454249B16BB98A7006D68D04CD9058F /* InstrumentsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = InstrumentsView.swift; sourceTree = "<group>"; };
-		FABAFC50C7BC9DE8FD0D5192FDDFD3DD /* PDFView+DisableSelection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "PDFView+DisableSelection.swift"; sourceTree = "<group>"; };
+		D9AB89144452785D2F4AB6C311868B11 /* DrawingGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DrawingGestureRecognizer.swift; sourceTree = "<group>"; };
+		EC9BE8317A94972B5CA2CA295C5FFF7D /* DrawConfigurationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DrawConfigurationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,18 +90,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1FB6A480B002610849AE0CDDFA9E138A /* Support Files */ = {
+		0F7E98ADD5DE2238E0D1FE626F3B3EEA /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				783786BF881E6BE142A156F796E18BEF /* PDFEditor.modulemap */,
-				45269DB3E6B7A784A196C9935D620019 /* PDFEditor.xcconfig */,
-				06814F9381C32760D726E53B87F4EB81 /* PDFEditor-dummy.m */,
-				C29846471339FF2072B67F3377B70AA9 /* PDFEditor-Info.plist */,
-				8B70E3EDCC6685B645D7B0D17E709EC6 /* PDFEditor-prefix.pch */,
-				7F635A97BFAFC88AC1A0A07C4105290A /* PDFEditor-umbrella.h */,
+				9017602F43B1D1FF1C1A12CF84580EEF /* ColorPickerView.swift */,
+				EC9BE8317A94972B5CA2CA295C5FFF7D /* DrawConfigurationView.swift */,
+				D9AB89144452785D2F4AB6C311868B11 /* DrawingGestureRecognizer.swift */,
+				3CCC102B989C361164F19EE6758086A0 /* InstrumentsView.swift */,
+				0662EF909E16C9DFDE9480963614D41F /* InstrumentTableViewCell.swift */,
+				601967160BBCDE51BCD0D86441A6EA19 /* PDFAnnotation+RemovePath.swift */,
+				89341AF161FC11FB05BADC1F00CB4BAC /* PDFEditAnnotation.swift */,
+				50D0D140CBBB16F2B2D39E1711F1530D /* PDFEditView.swift */,
+				0B766F84B2212EF92E60A6100720B5F3 /* PDFView+DisableSelection.swift */,
 			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/PDFEditor";
+			name = Source;
+			path = PDFEditor/Libraries/PDFEditor/PDFEditor/Source;
 			sourceTree = "<group>";
 		};
 		231E2D3B62CC866F23AD1080F0090712 /* Products */ = {
@@ -111,21 +116,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3FBC61BA4CFCE86C5982DABB6943688A /* Source */ = {
+		27E8ABF7BB9C201CAFECE7BEF67BB026 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6636742369F8CA85FD46F5816A1FCF94 /* ColorPickerView.swift */,
-				4BF9D1C4C807847836C60F3B2CFE86F6 /* DrawConfigurationView.swift */,
-				41B075BAD09D23C77D325A2938EC1433 /* DrawingGestureRecognizer.swift */,
-				E454249B16BB98A7006D68D04CD9058F /* InstrumentsView.swift */,
-				7470DBBD7C4FBAD82461A37EBF27EB5E /* InstrumentTableViewCell.swift */,
-				8053AAE4D06DD5F3C1E7A0B15BCED2C8 /* PDFAnnotation+RemovePath.swift */,
-				2530B1B0E8596BB7B48685DAB8E8CE8B /* PDFEditAnnotation.swift */,
-				8B7AFFD1E36167E567D3B8863F3D1128 /* PDFEditView.swift */,
-				FABAFC50C7BC9DE8FD0D5192FDDFD3DD /* PDFView+DisableSelection.swift */,
+				2B2F47DB02199514F637BF8FB98B1D8E /* PDFEditor.modulemap */,
+				2DDCB59F6BE9A6E7CB1EA9E498DDEA5C /* PDFEditor.xcconfig */,
+				0E372AFD387778621E218BB04A3904EC /* PDFEditor-dummy.m */,
+				C996EF408AE5E1304EC6F714EB56F9FC /* PDFEditor-Info.plist */,
+				25DB8B8C4148A4C64B293D4EC0204F04 /* PDFEditor-prefix.pch */,
+				10EC989A33CAAEE810410A6EA9A45064 /* PDFEditor-umbrella.h */,
 			);
-			name = Source;
-			path = PDFEditor/Source;
+			name = "Support Files";
+			path = "PDFEditor/Pods/Target Support Files/PDFEditor";
+			sourceTree = "<group>";
+		};
+		3455ACC911ECC6E2415C6589718062F2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C82F2E3DE4CEEC941DC4B5235E4D32BA /* PDFEditor */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		4081C6D904DF15BB26A78AE0638F0DCF /* Targets Support Files */ = {
@@ -136,12 +146,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6C60CF1BCA40D54BEC96029F578F81C4 /* Development Pods */ = {
+		5D8025F5E97A72A88B05FF6200A61606 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F3DC52FED94A448F1FD2B606DACCF8B6 /* PDFEditor */,
+				4206ED800A45735CD83247A831E4CD86 /* LICENSE */,
+				6FFF1AB290520101D49135B8BC234E2E /* PDFEditor.podspec */,
+				38B984D3FF73792574A8BBA3882D1A74 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7085A7A109AFB89657F08FD2AF6FD3A3 /* Pods-PDFEditorExample */ = {
@@ -161,14 +173,6 @@
 			path = "Target Support Files/Pods-PDFEditorExample";
 			sourceTree = "<group>";
 		};
-		75CCB80E236949113249A8DABD021BCA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				767F4582817D6136BE54A0557FD05D0D /* PDFEditor.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,11 +181,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C82F2E3DE4CEEC941DC4B5235E4D32BA /* PDFEditor */ = {
+			isa = PBXGroup;
+			children = (
+				7B9020FB020BC55092E0B18E478EBF24 /* PDFEditor.h */,
+				5D8025F5E97A72A88B05FF6200A61606 /* Pod */,
+				0F7E98ADD5DE2238E0D1FE626F3B3EEA /* Source */,
+				27E8ABF7BB9C201CAFECE7BEF67BB026 /* Support Files */,
+			);
+			name = PDFEditor;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				6C60CF1BCA40D54BEC96029F578F81C4 /* Development Pods */,
+				3455ACC911ECC6E2415C6589718062F2 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				231E2D3B62CC866F23AD1080F0090712 /* Products */,
 				4081C6D904DF15BB26A78AE0638F0DCF /* Targets Support Files */,
@@ -194,18 +210,6 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F3DC52FED94A448F1FD2B606DACCF8B6 /* PDFEditor */ = {
-			isa = PBXGroup;
-			children = (
-				67F3B3D0FF1A354F3D6048D1189CC923 /* PDFEditor.h */,
-				75CCB80E236949113249A8DABD021BCA /* Pod */,
-				3FBC61BA4CFCE86C5982DABB6943688A /* Source */,
-				1FB6A480B002610849AE0CDDFA9E138A /* Support Files */,
-			);
-			name = PDFEditor;
-			path = ../Libraries/PDFEditor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF94A085D3892FA727732B1D24FF159A /* PDFEditor-umbrella.h in Headers */,
-				EBBC2CC2B402C9BC3868101EB412EE81 /* PDFEditor.h in Headers */,
+				9D3D125A162A2E3BAACE84B69ACEE916 /* PDFEditor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +282,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -451,7 +455,7 @@
 		};
 		92DA82C65061B84B8DA1ADC7D7256D43 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45269DB3E6B7A784A196C9935D620019 /* PDFEditor.xcconfig */;
+			baseConfigurationReference = 2DDCB59F6BE9A6E7CB1EA9E498DDEA5C /* PDFEditor.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -488,7 +492,7 @@
 		};
 		98517647F0D8AEA5BE981C22B03E1353 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45269DB3E6B7A784A196C9935D620019 /* PDFEditor.xcconfig */;
+			baseConfigurationReference = 2DDCB59F6BE9A6E7CB1EA9E498DDEA5C /* PDFEditor.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";

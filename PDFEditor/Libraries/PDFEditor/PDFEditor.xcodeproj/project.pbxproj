@@ -10,7 +10,6 @@
 		82B5E60F244308B2006513CF /* PDFEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B5E605244308B2006513CF /* PDFEditor.framework */; };
 		82B5E614244308B2006513CF /* PDFEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5E613244308B2006513CF /* PDFEditorTests.swift */; };
 		82B5E616244308B2006513CF /* PDFEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 82B5E608244308B2006513CF /* PDFEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82B5E620244308C8006513CF /* PDFEditor.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 82B5E61F244308C8006513CF /* PDFEditor.podspec */; };
 		82B5E62B244308D4006513CF /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5E622244308D4006513CF /* ColorPickerView.swift */; };
 		82B5E62C244308D4006513CF /* DrawingGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5E623244308D4006513CF /* DrawingGestureRecognizer.swift */; };
 		82B5E62D244308D4006513CF /* PDFEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B5E624244308D4006513CF /* PDFEditView.swift */; };
@@ -39,7 +38,6 @@
 		82B5E60E244308B2006513CF /* PDFEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82B5E613244308B2006513CF /* PDFEditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFEditorTests.swift; sourceTree = "<group>"; };
 		82B5E615244308B2006513CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82B5E61F244308C8006513CF /* PDFEditor.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PDFEditor.podspec; sourceTree = "<group>"; };
 		82B5E622244308D4006513CF /* ColorPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 		82B5E623244308D4006513CF /* DrawingGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingGestureRecognizer.swift; sourceTree = "<group>"; };
 		82B5E624244308D4006513CF /* PDFEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFEditView.swift; sourceTree = "<group>"; };
@@ -73,7 +71,6 @@
 		82B5E5FB244308B2006513CF = {
 			isa = PBXGroup;
 			children = (
-				82B5E61F244308C8006513CF /* PDFEditor.podspec */,
 				82B5E607244308B2006513CF /* PDFEditor */,
 				82B5E612244308B2006513CF /* PDFEditorTests */,
 				82B5E606244308B2006513CF /* Products */,
@@ -216,7 +213,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82B5E620244308C8006513CF /* PDFEditor.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

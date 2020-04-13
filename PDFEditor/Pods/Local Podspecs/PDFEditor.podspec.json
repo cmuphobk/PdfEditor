@@ -19,8 +19,8 @@
     "tag": "0.0.1"
   },
   "source_files": [
-    "PDFEditor/PDFEditor.h",
-    "PDFEditor/Source/**/*.{swift}"
+    "PDFEditor/Libraries/PDFEditor/PDFEditor/PDFEditor.h",
+    "PDFEditor/Libraries/PDFEditor/PDFEditor/Source/**/*.{swift}"
   ],
   "swift_version": "5.0"
 }

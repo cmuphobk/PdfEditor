@@ -6,6 +6,6 @@ target 'PDFEditorExample' do
   use_frameworks!
 
   # Pods for PDFEditorExample
-  pod "PDFEditor", :path => "Libraries/PDFEditor/"
+  pod "PDFEditor", :path => "../"
 
 end

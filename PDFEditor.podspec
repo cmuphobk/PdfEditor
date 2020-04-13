@@ -18,6 +18,6 @@ Pod::Spec.new do |spec|
   spec.platform = :ios, "11.0"
   spec.swift_version = "5.0"
   spec.source = { :git => "git@github.com:cmuphobk/PdfEditor.git", :tag => "#{spec.version}" }
-  spec.source_files = "PDFEditor/PDFEditor.h", "PDFEditor/Source/**/*.{swift}"
+  spec.source_files = "PDFEditor/Libraries/PDFEditor/PDFEditor/PDFEditor.h", "PDFEditor/Libraries/PDFEditor/PDFEditor/Source/**/*.{swift}"
 
 end

@@ -2,15 +2,15 @@ PODS:
   - PDFEditor (0.0.1)
 
 DEPENDENCIES:
-  - PDFEditor (from `Libraries/PDFEditor/`)
+  - PDFEditor (from `../`)
 
 EXTERNAL SOURCES:
   PDFEditor:
-    :path: Libraries/PDFEditor/
+    :path: "../"
 
 SPEC CHECKSUMS:
-  PDFEditor: 6ebc223693ec84f614aa20687a3ef72b84e86d17
+  PDFEditor: 4c1af82d5954292d2cd28b62e4628bd8d08a7c8d
 
-PODFILE CHECKSUM: 28c7a48f21678570458fdde3459c3f4d8749fabf
+PODFILE CHECKSUM: 8ff6d3d5a3f5bfd89cb513b90b972eabd33a2c86
 
 COCOAPODS: 1.8.4
